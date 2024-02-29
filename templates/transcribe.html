@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio to Text</title>
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="{{ url_for('static', filename='/css/all.min.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/transcribe.css') }}" />
+    <link rel ="icon" href ="{{ url_for('static', filename='text.png') }}" type = "image/x-icon" />
+</head>
+<body>
+<nav>
+       <div class="navl">
+<i class="fas fa-3x fa-microphone"></i>
+           <h1>Audio to Text</h1>
+        <a class="line1" href="/" style="color: #ffffff;">Convert Audio</a>
+        <a class="line2" href="/templates/index2.html" style="color: #ffffff;">Convert Video</a>
+        <a class="line3" href="/templates/about.html" style="color: #ffffff;">About us</a>
+       </div>
+</nav>
+
+{% if transcript != "" %}
+        <div id="speechTranscriptContainer">
+            <div id="header">
+              <h1>Transcript</h1>
+            </div>
+           <div id="border">
+            <p id="speechText">{{ transcript }}</p>
+           </div>
+        </div>
+
+    {% endif %}
+
+
+</body>
+</html>

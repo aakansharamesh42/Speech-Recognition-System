@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+background: whitesmoke;  /* fallback for old browsers */12+, Safari 7+ */
+
+
+ }
+
+i{
+padding-left:25px;
+color:white;
+}
+
+.navl {
+  background-color:#15223B;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.navl h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-left: 15px;
+  font-size: 35px;
+  padding-top:15px;
+  padding-bottom:15px;
+  color: white;
+}
+
+.line1 {
+
+  color: cyan;
+   padding-left:630px;
+}
+
+.line2 {
+
+  color: #ffffff ;
+
+}
+
+a {
+  text-decoration: none;
+  padding-right: 40px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+}
+
+#main{
+
+    margin-top: 100px;
+    padding-bottom: 51px;
+}
+
+h1, p, input {
+font-family: 'Lato', sans-serif;
+
+}
+
+#speecheader {
+text-align:center;
+font-size: 25px;
+color: #15223B;
+}
+
+#fileheader{
+text-align:center;
+color: #15223b;
+font-family:arial;
+
+}
+
+#menubar{
+text-align:center;
+padding-top:25px;
+font-size: 22px;
+font-family:arial;
+
+}
+
+#menu{
+background-color: white ; color:#15223B;
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+   border-radius: 10px;
+   border: 2px solid #15223B ;
+
+  cursor: pointer;
+   font-family: sans-serif;
+}
+
+#uploaditem {
+text-align:center;
+padding-top:30px;
+font-size: 22px;
+font-family:arial;
+
+}
+
+#content{
+text-align:center;
+color:black;
+font-size: 27px;
+padding-top:20px;
+}
+
+
+label {
+  font-size: 20px;
+background-color: #15223B;
+    color: floralwhite;
+  padding: 35px;
+  font-family: sans-serif;
+  border-radius: 10px;
+
+  cursor: pointer;
+  margin-top: 1rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}w
+
+#upload.i{
+margin-left:10px;
+}
+
+
+#filec{
+  margin-left: 0.3rem;
+  font-family: sans-serif;
+   padding-top:25px;
+   font-size:15px;
+   color:black;
+}
+
+#submitButton{
+ background-color: #15223B;
+    color: floralwhite;
+    border-radius: 10px;
+    border: none;
+    padding: 35px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: sans-serif;
+        margin-left: 602px;
+    margin-right: 600px;
+
+}
+
+
+#submitButton:hover {
+    cursor: pointer;
+}
+
+#speechTranscriptContainer {
+    margin-top: 20px;
+}
+
+#header{
+font-size: 15px;
+margin-top:45px;
+    text-align: center;
+    text-color:white;
+}
+
+#speechText {
+    font-size: 18px;
+    text-align:center;
+    padding-left: 70px;
+    padding-right: 70px;
+    color:black;
+    padding-top:30px;
+
+}
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Audio to Text</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="{{ url_for('static', filename='/css/all.min.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/index2.css') }}" />
+    <link rel ="icon" href ="{{ url_for('static', filename='text.png') }}" type = "image/x-icon" />
+</head>
+<body>
+ <nav>
+       <div class="navl">
+<i class="fas fa-3x fa-microphone"></i>
+           <h1>Audio to Text</h1>
+           <a class="line1" href="/" style="color: #ffffff;">Convert Audio</a>
+           <a class="line2" href="/" style="color: cyan;">Convert Video</a>
+           <a href="/templates/about.html" style="color: #ffffff;">About us</a>
+       </div>
+      </nav>
+<div id="main">
+<div id="speecheader">
+    <h1>Video to Text Conversion</h1>
+</div>
+<div id="content">
+       <p>From audio to text easier than ever</p>
+</div>
+
+
+
+     <form method="post" enctype="multipart/form-data">
+         <!-- actual upload which is hidden -->
+<input type="file" id="file" name="file" hidden/>
+<div id="menubar">
+ <select name="menu" id="menu">
+
+    <option  selected hidden >Select language</option>
+    <option value="en-IN" class="option">English</option>
+    <option value="hi-IN" class="option">Hindi</option>
+    <option value="mr-IN" class="option">Marathi</option>
+    <option value="ta-IN" class="option">Tamil</option>
+    <option value="kn-IN" class="option">Kannada</option>
+    <option value="gu-IN" class="option">Gujarati</option>
+    <option value="pa-Guru-IN" class="option">Punjabi</option>
+ </select>
+</div>
+ <br>
+<div id="uploaditem">
+<!-- our custom upload button -->
+<label for="file">Upload Video File</label>
+             <br>
+     <div id="filec">
+ <span id="file-chosen">No file chosen</span>
+         </div>
+<!-- name of file chosen -->
+      <input type="submit" id="submitButton" value="Transcribe"/>
+</div>
+     </form>
+
+
+
+
+</div>
+
+
+
+</div>
+
+<script>
+
+
+const actualBtn = document.getElementById('file');
+
+const fileChosen = document.getElementById('file-chosen');
+
+actualBtn.addEventListener('change', function(){
+  fileChosen.textContent = this.files[0].name
+})</script>
+</body>
+</html>

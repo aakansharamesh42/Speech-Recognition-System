@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+background: whitesmoke;  /* fallback for old browsers */12+, Safari 7+ */
+
+
+ }
+
+i{
+padding-left:25px;
+color:white;
+}
+
+.navl {
+  background-color:#15223B;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.navl h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-left: 15px;
+  font-size: 35px;
+  padding-top:15px;
+  padding-bottom:15px;
+  color: white;
+}
+
+.line1 {
+
+  color: #ffffff;
+   padding-left:630px;
+}
+
+.line2 {
+
+
+
+}
+
+.line3 {
+
+  color: cyan ;
+
+}
+
+
+a {
+  text-decoration: none;
+  padding-right: 40px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+}
+
+#speechTranscriptContainer {
+    margin-top: 20px;
+}
+
+#header{
+font-size:25px;
+color:#15223B;
+margin-top:50px;
+    text-align: center;
+
+}
+
+#speechText {
+    font-size: 18px;
+    text-align:center;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-color:black;
+
+}
+
+#border{
+padding-top: 20px;
+    padding-bottom: 20px;
+ border: 2px solid #15223B;
+  border-radius: 5px;
+  margin-top:30px;
+  margin-right:200px;
+  margin-left:200px;
+ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
